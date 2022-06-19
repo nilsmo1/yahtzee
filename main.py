@@ -22,4 +22,6 @@ def main(stdscr) -> None:
     game.run()
 
 if __name__ == "__main__":
+    from table-py.table import Table
+    quit()
     crs.wrapper(main) 
